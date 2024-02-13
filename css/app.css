@@ -1,12 +1,187 @@
-.flex {
+.container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Me ajudou a centralizar verticalmente */
 }
 
-.flex-row {
-    flex-direction: row;
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; /* Me ajudou a centralizar verticalmente */
 }
 
-.input-text {
-    background-color: #F6F6F6;
-    border: 2px solid #BDBDBD;
+.img1 {
+    display: block; /* Garante que a imagem seja exibida como um bloco */
+    margin-left: auto; /* Alinha a imagem horizontalmente ao centro */
+    margin-right: auto; /* Alinha a imagem horizontalmente ao centro */
+}
+
+.txt1 {
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 10px;
+    text-align: center;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+.box {
+    width: 300px;
+    padding: 20px;
+    height: auto; 
+    background: #fff;
+    text-align: start;
+}
+
+.div1, .div2, .div3 {
+    border: 1px;
+    width: calc(100% - 5px);    
+    height: 48px;
+    margin: 10px 0; 
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    border: 2px solid #bdbdbd;
+}
+
+.checkbox{
+
+    margin: 10px 0; 
+}
+
+.button1 {
+    border-color:  #45FEFE;
+    border: 1px;
+    background-color: #45FEFE;
+    width: calc(100% - 2px); 
+    height: 48px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 10px 0; 
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer; 
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.button2 {
+    border: 3px solid;
+    width: calc(100% - 2px); 
+    height: 48px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 10px 0; 
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    border-color: #45FEFE;
+    background-color: #fff;
+    cursor: pointer; 
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+
+.txt2 {
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: -2px;
+    text-align: center;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.notificacao1 {
+    border: 1px solid white;
+    border-left-color: white;
+    border-right-color: white;
+    border-bottom-color: black;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.notificacao2 {
+    border: 1px solid white;
+    border-left-color: white;
+    border-right-color: white;
+    border-bottom-color: black;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.inputh {
+    border: 2px solid #bdbdbd;
+    background-color:  #f6f6f6;
+    width: calc(100% - 10px); 
+    height: 5px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 10px 0; 
+    border-radius: 30px;
+    text-align: start;
+    align-items: center;
+    cursor: pointer; 
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.img {
+    border: 5px solid #45FEFE; /* Define a largura e a cor da borda */
+    display: block; /* Garante que a imagem seja exibida como um bloco */
+    margin-left: auto; /* Alinha a imagem horizontalmente ao centro */
+    margin-right: auto; /* Alinha a imagem horizontalmente ao centro */
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.titleNoti {
+    font-weight: bold;
+}
+
+.timeNoti {
+    font-weight: 400;
+    margin-left: auto;
+    color: gray;
+}
+
+.textNoti {
+    font-weight: lighter;
+}
+
+.continue {
+    display: inline-block; /* Para garantir que a palavra 'continue' não seja tratada como um novo parágrafo */
+    margin-left: -47px; /* Adiciona um pequeno espaço entre 'Parabéns,' e 'continue' */
+}
+
+.ficar {
+    display: inline-block; /* Para garantir que a palavra 'continue' não seja tratada como um novo parágrafo */
+    margin-left: -150px; /* Adiciona um pequeno espaço entre 'Parabéns,' e 'continue' */
+
 }
